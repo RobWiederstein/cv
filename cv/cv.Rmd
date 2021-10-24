@@ -1,0 +1,93 @@
+---
+name: Robert
+surname: Wiederstein
+position: "Programmer | Data Analyst"
+address: "214 Sycamore St. Unit 402, Evansville, IN 47708"
+phone: 270.869.5112
+www: robwiederstein.org
+email: "rob@robwiederstein.org"
+twitter: RobWiederstein
+github: RobWiederstein
+linkedin: RobWiederstein
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+headcolor: 3026ef
+profilepic: pic.jpg
+csl: numeric-apa-cv.csl
+docname: CV/Resume
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(glue)
+library(myCV)
+```
+
+# Summary
+
+I have been programming in R part-time for 5 years, and full time for the last two years.  My experience and interests may be quickly understood through review of my [blog](https://www.robwiederstein.org) and GitHub [account](https://github.com/RobWiederstein). My future programming goals involve optimizing applications and incorporating `C++` in my packages and building apis.
+
+
+
+```{r load-data, include=FALSE}
+jobs <- readr::read_csv("../data/jobs.csv")
+schools <- readr::read_csv("../data/schools.csv")
+skills <- readr::read_csv("../data/skills.csv")
+```
+
+# Education
+
+```{r education, echo=FALSE}
+detailed_entries(schools, 
+                 when = glue("{start_date}--{end_date}"),
+                 what = degree,
+                 where = loc,
+                 with = uni)
+```
+
+# Work
+
+```{r work}
+jobs %>% 
+  detailed_entries(
+    what = role,
+    when = glue("{start_date}--{end_date}"),
+    with = company,
+    where = where,
+    why = details)
+```
+# Publications
+
+```{r Publications}
+bibliography_entries("pubs.bib")
+```
+
+# Selected Presentations
+
+```{r Presentations}
+# Normal articles excluding editorials
+bibliography_entries("talks.bib")
+```
+
+# Skills
+
+```{r skills}
+skills %>%
+    vitae::detailed_entries(
+        with = familiar,
+        what = skills
+    )
+```
+
+
+# Packages Used
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble", "glue", "myCV"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
+
