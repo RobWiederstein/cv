@@ -29,7 +29,6 @@ library(myCV)
 I have been programming in R part-time for 5 years, and full time for the last two years.  My experience and interests may be quickly understood through review of my [blog](https://www.robwiederstein.org) and GitHub [account](https://github.com/RobWiederstein). My future programming goals involve optimizing applications and incorporating `C++` in my packages and building apis.
 
 
-
 ```{r load-data, include=FALSE}
 jobs <- readr::read_csv("../data/jobs.csv")
 schools <- readr::read_csv("../data/schools.csv")
