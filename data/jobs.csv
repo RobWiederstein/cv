@@ -1,4 +1,9 @@
 ﻿role,company,where,start_date,end_date,details
+Developer,Self-study,"Evansville, Indiana",2020,2022,"Developed intuitive, interactive applications in R with an emphasis on exploration and visualization of data."
+Developer,Self-study,"Evansville, Indiana",2020,2022,Worked primarily with government-generated open data in machine readable formats but also collected data from web pages using commonly available web-scraping tools.
+Developer,Self-study,"Evansville, Indiana",2020,2022,Deployed applications in platform-agnostic containers to minimize dependencies and foster portability.
+Developer,Self-study,"Evansville, Indiana",2020,2022,"Incorporated the principles of reproducibility so that the data and code could be audited, was transparent and was, ultimately, trustworthy."
+Developer,Self-study,"Evansville, Indiana",2020,2022,"Structured projects adopting best practices in scientific computing like modularizing code, optimizing for performance, unit-testing, version control and issue tracking."
 State Representative,Kentucky General Assembly,"Frankfort, Kentucky",2018,2020,"Focused on the areas of government regulation and accountability; healthcare, and technology."
 State Representative,Kentucky General Assembly,"Frankfort, Kentucky",2018,2020,Primary sponsor and author for creation of Office of Accountability within the Office of State Budget.  Office was to regularly compute return on investment using outside evaluators for major state programs.
 State Representative,Kentucky General Assembly,"Frankfort, Kentucky",2018,2020,Primary sponsor and author for the creation of an all-payor claims database; creation of a committee to evaluate the costs and outcomes of Neonatal Intensive Care Units; and creation of a committee for the improvement of radiographic diagnostics and interpretation.
