@@ -1,4 +1,4 @@
-all: cv/cv.pdf cv/pic.jpg
+all: cv/pic.jpg cv/cv.pdf
 
 clean:
 	rm -rf cv/pic.jpg cv/cv.pdf cv/*.sty cv/*.cls cv/cv.tex cv/cv.log cv/fonts cv/cv.aux

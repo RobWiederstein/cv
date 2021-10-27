@@ -1,14 +1,14 @@
 ---
 name: Robert
 surname: Wiederstein
-position: "Programmer | Data Analyst"
+position: "Developer • Programmer"
 address: "214 Sycamore St. Unit 402, Evansville, IN 47708"
-phone: 270.869.5112
+#phone: 270.869.5112
 www: robwiederstein.org
 email: "rob@robwiederstein.org"
 twitter: RobWiederstein
 github: RobWiederstein
-linkedin: RobWiederstein
+#linkedin: <a href='https://www.linkedin.com/in/rob-wiederstein-797553138/'>rob-wiederstein</a>
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
 headcolor: 3026ef
@@ -26,7 +26,7 @@ library(myCV)
 
 # Summary
 
-I have been programming in R part-time for 5 years, and full time for the last two years.  My experience and interests may be quickly understood through review of my [blog](https://www.robwiederstein.org) and GitHub [account](https://github.com/RobWiederstein). My future programming goals involve optimizing applications and incorporating `C++` in my packages and building apis.
+I have been programming in R part-time for 5 years, and full time for the last two years.  My experiences and interests are diverse and set out  on my [**blog**](https://www.robwiederstein.org) and GitHub [**account**](https://github.com/RobWiederstein). I enjoy traveling, reading, guitar and cooking family meals.
 
 
 ```{r load-data, include=FALSE}
@@ -79,6 +79,18 @@ skills %>%
     )
 ```
 
+# Application Software
+
+```{r software, eval=T}
+tribble(
+  ~ pkg, ~ when, ~ role, ~ details,
+  'retirementDash', '2021', 'Developer/author', 'A dashboard of retirement locations filtered by health, environment, housing affordability, and demographic criteria. Inter-county migration data are also included.',
+  'retirementData', '2021', 'Developer/author', 'The dataset provides demographic, economic, environmental, and health data by county to determine retirement location. All United States counties are included.',
+  'KeyWestMopeds', '2021', 'Developer/author', 'The package explores motorcycle crash data from 2012 through 2021 furnished via the Florida Highway Safety and Motor Vehicle Department through its open data portal.'
+) %>% 
+  brief_entries(glue::glue("\\textbf{<pkg>}: <role> \\newline <details>", .open = "<", .close = ">"), paste0(when, "\\newline"), .protect = FALSE)
+
+```
 
 # Packages Used
 
