@@ -1,8 +1,8 @@
 ---
 name: Robert
 surname: Wiederstein
-position: "Developer • Programmer"
-address: "214 Sycamore St. Unit 402, Evansville, IN 47708"
+position: "Developer • Programmer • Analyst"
+address: "9899 Warrick Trail, Apt 217, Newburgh, IN 47708"
 #phone: 270.869.5112
 www: robwiederstein.org
 email: "rob@robwiederstein.org"
@@ -22,11 +22,12 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 library(glue)
 library(myCV)
+library(tibble)
 ```
 
 # Summary
 
-I have been programming in R part-time for 5 years, and full time for the last two years.  My experiences and interests are diverse and set out  on my [**blog**](https://www.robwiederstein.org) and GitHub [**account**](https://github.com/RobWiederstein). I enjoy traveling, reading, guitar and cooking family meals.
+I have been programming in R for the past seven years.My experiences and interests are diverse and set out  on my [**blog**](https://www.robwiederstein.org) and GitHub [**account**](https://github.com/RobWiederstein). I enjoy traveling, reading, guitar and cooking family meals.
 
 
 ```{r load-data, include=FALSE}
@@ -56,18 +57,6 @@ jobs %>%
     where = where,
     why = details)
 ```
-# Publications
-
-```{r Publications}
-bibliography_entries("pubs.bib")
-```
-
-# Selected Presentations
-
-```{r Presentations}
-# Normal articles excluding editorials
-bibliography_entries("talks.bib")
-```
 
 # Skills
 
@@ -84,12 +73,21 @@ skills %>%
 ```{r software, eval=T}
 tribble(
   ~ pkg, ~ when, ~ role, ~ details,
-  'retirementDash', '2021', 'Developer/author', 'A dashboard of retirement locations filtered by health, environment, housing affordability, and demographic criteria. Inter-county migration data are also included.',
+  'buildingBlocks', '2022', 'In production', 'A dashboard of significant childhood development milestones with an emphasis on the role of high quality childcare, pre-k, and health on future educational outcomes. Data sources include the Internal Revenue Service, Bureau of Labor Statistics and the Indiana Department of Education.  US Census Bureau GIS data were also included for county and school district boundaries.',
+  'econdash', '2022', 'In production', 'A dashboard of significant economic indicators from the U.S. Federal Reserve, International Monetary Fund, and the Organization For Economic Cooperation and Development.',
+  'sarasota', '2022', 'Developer/author', 'A dashboard on Sarasota County residential real estate prices including both condominiums and single family homes.', 
+  'retirementDash', '2021', 'Developer/author', 'A dashboard of retirement locations filtered by health, environment, housing affordability, and demographic criteria. An inter-county migration dataset was also included.',
   'retirementData', '2021', 'Developer/author', 'The dataset provides demographic, economic, environmental, and health data by county to determine retirement location. All United States counties are included.',
   'KeyWestMopeds', '2021', 'Developer/author', 'The package explores motorcycle crash data from 2012 through 2021 furnished via the Florida Highway Safety and Motor Vehicle Department through its open data portal.'
 ) %>% 
   brief_entries(glue::glue("\\textbf{<pkg>}: <role> \\newline <details>", .open = "<", .close = ">"), paste0(when, "\\newline"), .protect = FALSE)
 
+```
+# Publications
+
+```{r Publications}
+#bibliography_entries("pubs.bib")
+bibliography_entries("pubs.bib")
 ```
 
 # Packages Used
