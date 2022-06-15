@@ -27,7 +27,7 @@ library(tibble)
 
 # Summary
 
-I have been programming in R for the past seven years.My experiences and interests are diverse and set out  on my [**blog**](https://www.robwiederstein.org) and GitHub [**account**](https://github.com/RobWiederstein). I enjoy traveling, reading, playing guitar and cooking family meals.
+I have been programming in R for the past seven years. My experiences and interests are diverse, detailed in my [**blog**](https://www.robwiederstein.org) and maintained in my GitHub [**repository**](https://github.com/RobWiederstein). I enjoy traveling, reading, playing guitar and cooking family meals.
 
 
 ```{r load-data, include=FALSE}
