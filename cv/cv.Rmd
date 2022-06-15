@@ -5,7 +5,7 @@ position: "Developer • Programmer • Analyst"
 address: "9899 Warrick Trail, Apt 217, Newburgh, IN 47708"
 #phone: 270.869.5112
 www: robwiederstein.org
-email: "rob@robwiederstein.org"
+email: "robwiederstein@protonmail.com"
 twitter: RobWiederstein
 github: RobWiederstein
 #linkedin: <a href='https://www.linkedin.com/in/rob-wiederstein-797553138/'>rob-wiederstein</a>
@@ -27,7 +27,7 @@ library(tibble)
 
 # Summary
 
-I have been programming in R for the past seven years.My experiences and interests are diverse and set out  on my [**blog**](https://www.robwiederstein.org) and GitHub [**account**](https://github.com/RobWiederstein). I enjoy traveling, reading, guitar and cooking family meals.
+I have been programming in R for the past seven years.My experiences and interests are diverse and set out  on my [**blog**](https://www.robwiederstein.org) and GitHub [**account**](https://github.com/RobWiederstein). I enjoy traveling, reading, playing guitar and cooking family meals.
 
 
 ```{r load-data, include=FALSE}
