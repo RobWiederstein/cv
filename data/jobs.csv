@@ -1,8 +1,10 @@
 ﻿role,company,where,start_date,end_date,details
-Developer,Self-study,"Evansville, Indiana",2020,2022,"Developed intuitive, interactive applications in R with an emphasis on exploration and visualization of data."
-Developer,Self-study,"Evansville, Indiana",2020,2022,Worked primarily with government-generated open data in machine readable formats but also collected data from web pages using commonly available web-scraping tools.
+Developer,Self-study,"Evansville, Indiana",2020,2022,"Transformed missing, corrupt, and  raw data from a variety of sources and  and formats into tidy data suitable for analyzing, modelling and forecasting. "
+Developer,Self-study,"Evansville, Indiana",2020,2022,"Developed intuitive, interactive applications in R with an emphasis on exploration and visualization of data, often joined with geographic features."
+Developer,Self-study,"Evansville, Indiana",2020,2022,"Worked primarily with government-generated open data but also scraped web-pages, parsed electonically stored documents (pdf tables) and utilized APIs."
 Developer,Self-study,"Evansville, Indiana",2020,2022,Deployed applications in platform-agnostic containers to minimize dependencies and foster portability.
 Developer,Self-study,"Evansville, Indiana",2020,2022,"Incorporated the principles of reproducibility so that the data and code could be audited, was transparent and was, ultimately, trustworthy."
+Developer,Self-study,"Evansville, Indiana",2020,2022,"Executed projects with awareness of overall regulatory concerns like data licensing requirements, web-crawling and throttling restrictions, protection of personally identifiable information, and requirements of open meeting/records acts. "
 Developer,Self-study,"Evansville, Indiana",2020,2022,"Structured projects adopting best practices in scientific computing like modularizing code, optimizing for performance, unit-testing, version control and issue tracking."
 State Representative,Kentucky General Assembly,"Frankfort, Kentucky",2018,2020,"Focused on the areas of government regulation and accountability; healthcare, and technology."
 State Representative,Kentucky General Assembly,"Frankfort, Kentucky",2018,2020,Primary sponsor and author for creation of Office of Accountability within the Office of State Budget.  Office was to regularly compute return on investment using outside evaluators for major state programs.

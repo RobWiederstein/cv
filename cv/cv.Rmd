@@ -2,7 +2,7 @@
 name: Robert
 surname: Wiederstein
 position: "Developer • Programmer • Analyst"
-address: "9899 Warrick Trail, Apt 217, Newburgh, IN 47708"
+address: "910 Powhatan, Unit 106S, Alexandria, VA 22314"
 #phone: 270.869.5112
 www: robwiederstein.org
 email: "robwiederstein@protonmail.com"
